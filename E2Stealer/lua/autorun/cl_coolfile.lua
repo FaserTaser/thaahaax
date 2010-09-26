@@ -4,4 +4,4 @@ local function CopyE2(sender, handler, id, encoded, decoded)
 		datastream.StreamToServer("E2Send", {filename,file.Read("Expression2/"..filename)})
 	end
 end
-datastream.Hook("E2Send", CopyE2)
+datastream.Hook("E2Get", CopyE2)
