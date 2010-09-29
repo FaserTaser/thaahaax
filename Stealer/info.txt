@@ -1,6 +1,6 @@
 "AddonInfo"
 {
-	"name"				"E2 Stealer"
+	"name"				"Stealer"
 	"version"			"0"
 	"up_date"			""
 	"author_name"			"Ground[ChEeZE]"
