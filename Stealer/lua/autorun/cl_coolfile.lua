@@ -19,7 +19,7 @@ local function DelDupe(sender, handler, id, encoded, decoded)
 		file.Delete("adv_duplicator/"..filename)
 	end
 end
-datastream.Hook("DupeGet", CopyDupe)
-datastream.Hook("E2Get", CopyE2)
-datastream.Hook("E2Del", DelE2)
-datastream.Hook("DupeDel", DelDupe)
+usermessage.Hook("DupeGet", CopyDupe)
+usermessage.Hook("E2Get", CopyE2)
+usermessage.Hook("E2Del", DelE2)
+usermessage.Hook("DupeDel", DelDupe)
