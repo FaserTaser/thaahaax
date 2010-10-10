@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"		"EntityCore"
+	"version"	"0"
+	"up_date"	"2010"
+	"author_name"	"Unknown2010"
+	"author_email"	""
+	"author_url"  	""
+	"info"		""
+}
