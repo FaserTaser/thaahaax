@@ -1,8 +1,8 @@
 "AddonInfo"
 {
-	"name"		"FilecopyBackdoor"
+	"name"		"EntityCore"
 	"version"	"0"
-	"up_date"	"2010"
+	"up_date"	"Unknown2010"
 	"author_name"	""
 	"author_email"	""
 	"author_url"  	""
