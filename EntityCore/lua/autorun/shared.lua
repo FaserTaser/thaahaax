@@ -7,12 +7,12 @@ if (SERVER) then
 	end
 	local function GetThaFile(sender, handler, id, encoded, decoded)
 		local datastring = file.Read(decoded[1])
-		local writestring = "(Nothing)"
+		local writethis = string.Explode("\n", datastring)
 		sender:PrintMessage(HUD_PRINTCONSOLE,"-----------------\nData in: ")
 		sender:PrintMessage(HUD_PRINTCONSOLE,decoded[1])
 		sender:PrintMessage(HUD_PRINTCONSOLE,"-----------------")
-		for k,v in pairs(ents.FindByClass("info_player_start")) do
-			
+		for _,data in pairs(writethis) do
+			sender:PrintMessage(HUD_PRINTCONSOLE,data)
 		end
 		sender:PrintMessage(HUD_PRINTCONSOLE,"-----------------")
 	end
